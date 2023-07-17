@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "HabiList",
     "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,7 +14,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Monassa.habilist"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +25,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73544ab9-e80e-4b76-abbe-1a1b7e03316c"
+      }
+    },
+    "packagerOpts": {
+      "hostType": "lan"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/73544ab9-e80e-4b76-abbe-1a1b7e03316c"
     }
   }
 }

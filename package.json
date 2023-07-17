@@ -9,15 +9,45 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.3",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
     "expo": "~48.0.4",
+    "expo-font": "~11.1.1",
     "expo-status-bar": "~1.4.4",
+    "expo-updates": "~0.16.4",
+    "lottie-react-native": "5.1.4",
     "react": "18.2.0",
-    "react-native": "0.71.3"
+    "react-native": "0.71.8",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "styled-components": "^6.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.0.14",
+    "@types/react-native": "^0.71.3",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^36.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.8",
+    "react-native-svg-transformer": "^1.0.0",
     "typescript": "^4.9.4"
+  },
+  "expo": {
+    "packagerOpts": {
+      "hostType": "lan"
+    }
   },
   "private": true
 }
